@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Use ES2020 for modern JavaScript features
+    "module": "commonjs",                        // Use commonjs for Node.js compatibility
+    "outDir": "./dist",                          // Compiled JS files will be placed in ./dist folder
+    "rootDir": "./src",                          // Root directory for your source files
+    "strict": true,                              // Enable strict type-checking options
+    "esModuleInterop": true,                     // Enables interoperability between ES6 and CommonJS modules
+    "skipLibCheck": true,                        // Skip type checking of declaration files (speeds up the build)
+    "forceConsistentCasingInFileNames": true,    // Ensures that file names are case-sensitive
+    "moduleResolution": "node",                  // Resolves modules in the Node.js style
+    "resolveJsonModule": true,                   // Allow importing JSON files as modules
+    "noEmitOnError": true                        // Prevent emitting JavaScript files if there are TypeScript errors
+  },
+  "include": [
+    "src/**/*"                                   // Include all files in the src folder
+  ],
+  "exclude": [
+    "node_modules"                               // Exclude node_modules
+  ]
+}
